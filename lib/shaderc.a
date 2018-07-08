@@ -1,0 +1,12 @@
+create /home/holden/Desktop/shaderc/libshaderc/libshaderc_combined.a
+addlib /home/holden/Desktop/shaderc/third_party/spirv-tools/source/libSPIRV-Tools.a 
+addlib /home/holden/Desktop/shaderc/third_party/spirv-tools/source/opt/libSPIRV-Tools-opt.a 
+addlib /home/holden/Desktop/shaderc/third_party/glslang/hlsl/libHLSL.a 
+addlib /home/holden/Desktop/shaderc/third_party/glslang/glslang/OSDependent/Unix/libOSDependent.a 
+addlib /home/holden/Desktop/shaderc/third_party/glslang/OGLCompilersDLL/libOGLCompiler.a 
+addlib /home/holden/Desktop/shaderc/third_party/glslang/glslang/libglslang.a 
+addlib /home/holden/Desktop/shaderc/third_party/glslang/SPIRV/libSPIRV.a 
+addlib /home/holden/Desktop/shaderc/libshaderc_util/libshaderc_util.a 
+addlib /home/holden/Desktop/shaderc/libshaderc/libshaderc.a
+save
+end
